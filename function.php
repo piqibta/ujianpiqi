@@ -1,6 +1,6 @@
 <?php
 //koneksi database
-$db = mysqli_connect("localhost", "root", "", "ujian_crud");
+$db = mysqli_connect("localhost", "root", "", "ujianpiqi");
 
 //fungsi untuk menampilkan query
 function query($query)

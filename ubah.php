@@ -38,6 +38,13 @@ if (isset($_POST["submit"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ubah Data Mahasiswa</title>
+    <style>body{background-image:url("img/bgtambah.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    widht: 100%;
+    hight: 100%;
+    background-size: 100%;}
+    </style>
 </head>
 
 <body>

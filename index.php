@@ -14,8 +14,13 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Data Mahasiswa</title>
-    <style>body{background-image:url("img/bg.jpg");}
+    <title>Ujian Tengah Semester Piqi</title>
+    <style>body{background-image:url("img/bg.jpg");
+    background-repeat: no-repeat;
+    position: fixed;
+    widht: 100%;
+    hight: 100%;
+    background-size: 100%;}
     @media screen and (max-width: 600px) {
 h4{font-size:85%;}
 }
@@ -39,7 +44,7 @@ h4{font-size:85%;}
   }
 }
 </style>
-<span class="blink"><h1 style="text-align:center;"><font color="red">DAFTAR MAHASISWA</h1></font></span>
+<span class="blink"><h1 style="text-align:center;"><font color="navy">DAFTAR MAHASISWA</h1></font></span>
 
     <h1 style="text-align:center;"><a href="tambah.php">Tambah Data</a>
     <br><br>
